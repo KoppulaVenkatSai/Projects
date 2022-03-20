@@ -1,0 +1,192 @@
+#​main​{ 
+    ​     
+    ​    ​font-family​:​fantasy; 
+    ​    ​font-weight​:​ bolder; 
+    ​    ​font-size​:​ ​2000​; 
+    ​    ​letter-spacing​:​ ​2​px​; 
+    ​    ​background-color​:​ orange; 
+    ​    ​width​:​ fit-content; 
+    ​     
+    ​    ​color​:​ orangered; 
+    ​    ​cursor​:​ pointer; 
+    ​    ​border-radius​:​ ​4​px​; 
+    ​    ​padding​:​ ​4​px​; 
+     
+    ​   ​border​:​ solid mediumslateblue; 
+    ​     
+    ​} 
+    ​ ​#​up​{ 
+     
+    ​     
+    ​    ​font-family​:​ fantasy; 
+    ​    ​font-weight​:​ bolder; 
+    ​    ​font-size​:​ ​2000​; 
+    ​     
+    ​    ​letter-spacing​:​ ​2​px​; 
+    ​     
+    ​    ​background-color​:​ green; 
+    ​    ​width​:​ fit-content; 
+    ​    
+    ​    ​color​:​ greenyellow; 
+    ​    ​cursor​:​ pointer; 
+    ​    ​padding​:​ ​4​px​; 
+    ​     
+    ​border-radius​:​ ​4​px​; 
+    ​border​:​solid yellow; 
+    ​text-align​:​ right; 
+    ​     
+    ​} 
+    ​#​main​ ​a​{ 
+    ​    ​text-decoration​:​ none; 
+    ​    ​color​:​ orangered; 
+    ​} 
+     
+    ​/*body{ 
+    ​     
+    ​background-repeat: none; 
+    ​background-size: cover; 
+    ​background-attachment: scroll; 
+    ​background-position: center; 
+    ​overflow: hidden; 
+     
+    ​}*/ 
+     
+    ​nav​{ 
+    ​     
+    ​    ​word-spacing​:​ ​3​px​; 
+    ​    ​background​:​ ​rgba​(​255​,​ ​118​,​ ​0​,​0.8​); 
+    ​    ​width​:​ fit-content; 
+    ​    ​padding​:​ ​4​px​; 
+    ​    ​border-radius​:​ ​3​px​; 
+    ​    ​border​:​ ​2​px​ solid ​rgb​(​54​,​ ​34​,​ ​34​); 
+     
+     
+    ​float​:​ right; 
+     
+    ​text-align​:​ center; 
+    ​} 
+     
+    ​nav​ ​a​{ 
+    ​    ​text-decoration​:​ none; 
+    ​    ​color​:​ yellow; 
+    ​} 
+    ​a​#​home​{ 
+    ​    ​background-color​:​ ​#​F2F4C3​; 
+    ​    ​border-radius​:​ ​4​px​; 
+    ​    ​text-align​:​ center; 
+    ​    ​color​:​ ​rgb​(​10​,​ ​25​,​ ​49​); 
+    ​     
+    ​} 
+    ​a​#​sign​{ 
+    ​    ​background-color​:​ ​#​F2F4C3​; 
+    ​    ​border-radius​:​ ​4​px​; 
+    ​    ​text-align​:​ center; 
+    ​    ​color​:​ ​rgb​(​10​,​ ​25​,​ ​49​); 
+    ​     
+    ​}​a​#​price​{ 
+    ​    ​background-color​:​ ​#​F2F4C3​; 
+    ​    ​border-radius​:​ ​4​px​; 
+    ​    ​text-align​:​ center; 
+    ​    ​color​:​ ​rgb​(​10​,​ ​25​,​ ​49​); 
+    ​     
+    ​}​a​#​about​{ 
+    ​    ​background-color​:​ ​#​F2F4C3​; 
+    ​    ​border-radius​:​ ​4​px​; 
+    ​    ​text-align​:​ center; 
+    ​    ​color​:​ ​rgb​(​10​,​ ​25​,​ ​49​); 
+    ​     
+    ​}​a​#​contact​{ 
+    ​    ​background-color​:​ ​#​F2F4C3​; 
+    ​    ​border-radius​:​ ​4​px​; 
+    ​    ​text-align​:​ center; 
+    ​    ​color​:​ ​rgb​(​10​,​ ​25​,​ ​49​); 
+    ​     
+    ​} 
+     
+     
+    ​body​{ 
+    ​    ​background-image​:​ ​url​(https://images.pexels.com/photos/4225920/pexels-photo-4225920.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); 
+    ​background-repeat​:​ no-repeat; 
+    ​background-size​:​ cover; 
+    ​background-position​:​ center; 
+    ​} 
+     
+    ​.​uptext​{ 
+    ​    ​display​:​ inline-block; 
+    ​    ​word-spacing​:​ ​3​px​; 
+    ​     
+    ​} 
+    ​/*#i1{ 
+    ​    border-top: 4px solid #492F10; 
+    ​    border-left: 4px solid #212121; 
+    ​    border-right: 4px solid #FF6F3C; 
+    ​    border-bottom: 4px solid #a809f1; 
+    ​}*/ 
+    ​#​lorem​{ 
+    ​    ​background​:​ ​linear-gradient​(to left top​,​lightgreen​,​lightblue); 
+    ​} 
+    ​#​host​{ 
+    ​    ​color​:​white; 
+    ​    ​font-family​:​monospace; 
+    ​    ​background-color​:​blue; 
+    ​    ​width​:​fit-content; 
+    ​    ​border-radius​:​ ​3​px​; 
+    ​    ​padding​:​ ​4​px​; 
+    ​    ​display​:​ inline-flex; 
+    ​} 
+    ​#​host​:​hover​{ 
+    ​    ​background-color​:​ white; 
+    ​    ​color​:​ blue; 
+    ​    ​transition​:​ ​2​s​; 
+    ​cursor​:​ pointer; 
+    ​} 
+    ​#​enter​{ 
+    ​    ​border-radius​:​4​px​; 
+    ​    ​background-color​:​lightgrey; 
+    ​    ​padding​:​3​px​; 
+    ​} 
+    ​.​fa-keyboard​{ 
+    ​    ​background-color​:​ ​#​F9DFDC​; 
+    ​} 
+     
+    ​.​fa-arrow-right​{ 
+    ​    ​background-color​:​ darkblue; 
+    ​     
+    ​    ​color​:​ yellow; 
+    ​} 
+    ​.​fa-arrow-right​:​hover​{ 
+    ​    ​cursor​:​pointer; 
+     
+    ​} 
+     
+    ​h3​{ 
+     
+    ​font-family​:​ fantasy; 
+    ​font-weight​:​ ​1200​; 
+    ​letter-spacing​:​ ​2​px​; 
+     
+    ​color​:​ darkmagenta; 
+    ​background​:​ ​linear-gradient​(to right​,​#​eecda3​ ​,​ ​#​ef629f​); 
+    ​border-radius​:​ ​3​px​; 
+    ​padding​:​ ​4​px​; 
+    ​width​:​fit-content; 
+    ​} 
+    ​.​down​{ 
+    ​    ​background-color​:​rgba​(​36​,​39​,​31​,​1​); 
+    ​    ​color​:​ wheat; 
+    ​    ​font-family​:​ cursive; 
+    ​    ​border-radius​:​ ​3​px​; 
+    ​     
+    ​} 
+    ​.​down​ ​ul​ ​li​{ 
+    ​    ​list-style-type​:​ none; 
+    ​    ​line-height​:​50​px​; 
+    ​} 
+    ​.​another​  ​ul​ ​li​{ 
+    ​    ​list-style-type​:​ none; 
+    ​    ​text-align​:​right; 
+    ​    ​line-height​:​50​px​; 
+    ​    ​margin-right​:​ ​100​px​; 
+    ​    ​margin-bottom​:​ ​10​px​; 
+    ​     
+    ​}
