@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <title>1000 Pillar Temple</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <link rel="stylesheet" href="TT.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Courgette&family=Lato:ital@1&family=PT+Serif:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Lato:ital@1&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Maiandra GD', 'PT Serif', 'Lato', sans-serif, cursive;
+        }
+
+        .headercon {
+            display: flex;
+            /* margin: 20px; */
+            background: url(../simages/bgnight.jpg) no-repeat center center/cover;
+            /* position: absolute; */
+            height: 20%;
+            width: 100%;
+            z-index: -1;
+            opacity: 0.8;
+        }
+
+        .header {
+            display: flex;
+            margin: 25px 25px;
+            /* justify-content: center;
+            align-items: center; */
+            animation: slide 1s ease-in forwards;
+        }
+
+        @keyframes slide {
+            0%{
+                display: none;
+                opacity: 0;
+                transform: translate(800px);
+            }
+            /* 50%{
+                opacity: 0.3;
+                transform: translate(250px);
+            } */
+            100%{
+                transform: translate(0px);
+                opacity: 1;
+            }
+        }
+
+        .header h2 {
+            color: rgb(255, 0, 0);
+            /* text-align: center; */
+            font-size: 3rem;
+            margin-left: 25px;
+            text-shadow: 1px 1px 5px rgb(255, 255, 255);
+        }
+
+        .matter {
+            margin-top: 35px;
+            padding: 50px;
+        }
+
+        #imagediv {
+            display: inline-block;
+        }
+
+        #imagediv img {
+            box-shadow: 5px 5px 10px rgb(28, 255, 149);
+            height: 450px;
+            left: 10px;
+            margin: 50px;
+            margin-top: 90px;
+        }
+
+        #main {
+            height: 100%;
+        }
+
+        #main::before {
+            content: "";
+            background: url(../simages/skybghd.jpg) no-repeat center center/cover;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+            /* margin-top: 100px; */
+            position: absolute;
+            z-index: -2;
+            opacity: 0.8;
+        }
+
+        .bodycon {
+            display: flex;
+            /* border: 1px solid red; */
+            height: 100%;
+            width: 100%;
+            justify-content: flex-start;
+            /* align-items: center; */
+        }
+
+        .rightdiv p {
+            font-size: 1.2rem;
+            font-weight: 520;
+            color: red;
+            text-shadow: 1px 1px 4px rgb(255, 255, 255);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="headercon">
+        <div class="header">
+            <h2>1000 Pillar Temple</h2>
+        </div>
+    </div>
+    <div id="main">
+        <div class="bodycon">
+            <div id="imagediv">
+                <img src="../images/box3-1000pillar.jpg" alt="1000 Pillar Temple">
+            </div>
+            <div class="rightdiv">
+
+                <div class="matter">
+                    <h3>About 1000 Pillar Temple</h3>
+                    <p align="justify">
+                        One of the most famous monuments in Telangana, the Thousand Pillar Temple was built by the Kakatiya King, Rudra Deva in 1163 AD. The temple represents the intricate Chalukyan style of temple architecture at its finest. Dedicated to Lord Shiva, Vishnu and Surya it is loaded with meticulously designed pillars, richly carved icons, and rock cut elephants that represent the incredible detailing of Kakatiya architecture.
+                    </p>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
