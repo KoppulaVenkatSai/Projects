@@ -1,6 +1,0 @@
-$connhostname = 'sql101.epizy.com';
-$connusername = 'epiz_31979470';
-$connpassword = 'AGjhyThuUbgN';
-$conndbname = 'epiz_31979470_LMS_PROJ';
-
-$conn = new mysqli('sql101.epizy.com', 'epiz_31979470', 'AGjhyThuUbgN', 'epiz_31979470_LMS_PROJ');
